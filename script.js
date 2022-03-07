@@ -14,7 +14,6 @@ function createTextElement(array) {
 
 function getLetterText() {
   const text = document.querySelector('#carta-texto').value;
-  document.querySelector('#carta-texto').value = '';
   createTextElement(text.split(' '));
 }
 
